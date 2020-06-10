@@ -1,0 +1,18 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    
+    @media (max-width: 756px) {
+      flex-direction: column;
+    }
+}
+
+.is-hidden {
+    display: none!important;
+}
+
+.visually-hidden {
+    text-indent: -9999px;
+    font-size: 0;
+}
